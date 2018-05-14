@@ -1,5 +1,5 @@
 # Math Module Part I
-import Math
+import math
 
 # Constants
 print(math.pi)
