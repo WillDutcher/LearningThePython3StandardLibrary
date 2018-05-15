@@ -17,5 +17,8 @@ myFile.close()
 
 # Read the file
 myFile = open("scores.txt", "r")
-print("Reading..." + myFile.read(10))
-print("Reading again" + myFile.read(10))
+print("Reading...\n" + myFile.read(10))
+print("Reading again\n" + myFile.read(9))
+myFile.seek(0)
+print("Reading again\n" + myFile.read(10))
+myFile.close()
